@@ -145,7 +145,7 @@ class Jb_Popup_Admin {
 				$display_on = get_post_meta($post_id, 'display_on', true);
 							
 			}
-			$metabox = new SCC_Metabox( 'Extra Settings', 'extra_settings', array(JB_POPUP) );			
+			$metabox = new JB_Metabox( 'Extra Settings', 'extra_settings', array(JB_POPUP) );			
 			$metabox->add_field(
 				array(
 					'name' => 'display_on',
